@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*=========
+general
+===========*/
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    z-index: 100;
+}
+.header-image{
+    width: 150px;
+}
+.header-link{
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: 1rem;
+    color: #cecece;
+}
+
+.supercar-info{
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #cecece;
+    background-color: #1F2937;
+    z-index: 90;
+}
+.supercar-info__flex-item{
+    width: 40%;
+    margin: 2rem;
+}
+
+.supercar-info-title{
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+    color: white;
+}
+.supercar-info{
+    line-height: 1.5;
+    font-size: 1.3rem; 
+}
+.supercar-info__pic{
+    width: 350px;
+}
+a:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.top-supercars{
+    position: relative;
+    top: 10%;
+    margin: 2rem;
+
+}
+.top-cars-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem;
+}
+
+.top-supercars-header{
+    font-weight: 500;
+    text-align: center;
+    color: #1F2937;
+}
+.top7{
+    width: 250px;
+    border: 3px solid #1F2937;
+}
+figcaption{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 1rem;
+    color: #1F2937;
+}
+
+
+.quote{
+    background-color: #E5E7Eb;
+    font-family: 'Outfit', sans-serif;
+    padding: 3rem;
+    margin: 5rem;
+    margin-top: 8rem;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    padding: 4rem;
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+}
